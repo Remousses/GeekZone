@@ -1,0 +1,302 @@
+@CHARSET "UTF-8";
+
+body{
+	background-color: #c3c3c3;
+	height: 40px;
+}
+
+.image_titre{
+	float: left;
+}
+
+#conteneur{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+span.bouton_deco{
+	position: absolute;
+	margin-top: -20px;
+	margin-left: 160px;
+}
+
+.bouton{
+	background-color: #303030;
+	border: none;
+	border-radius: 10px;
+	padding: 15px 32px;
+	position: fixed;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.bouton_prod_cat{
+	margin: auto;
+    width: 100px;
+    background: #303030;
+    height: 100px;
+    text-align: center;
+    border-radius: 100px;
+    line-height: 90px;
+}
+
+a.btn{
+	color: white;
+	text-decoration: none;
+}
+
+.image_gauche{
+	margin-top: 5%;
+}
+
+.texte_droite{
+	margin-top: 5%;
+}
+
+a.clique_ici{
+	text-decoration: underline;
+	color: blue;
+}
+
+.titre{
+	color: #fff;
+	text-align: center;
+	font-size: 35px;
+	padding-top: 50px;
+}
+
+@media screen and (max-width: 1927px){
+	.titre{
+		padding-top: 80px;
+	}
+}
+
+@media screen and (max-width: 974px){
+	.titre{
+		padding-top: 190px;
+	}
+}
+
+@media screen and (max-width: 1450px){
+	#menu li ul {
+	    display: none
+	}
+}
+
+#menu, #menu ul {
+	padding: 0;
+	margin-left: 7%;
+	margin-right: 7%;
+	font-family: Verdana;
+	display: block;
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+
+#menu {
+	font-weight: bold;
+  	font-size: 15pt;
+  	text-align: center;
+    position: absolute;
+}
+
+#menu a {
+	display: block;
+    background: black;       
+    color: white;
+    text-decoration: none;
+    width : 400px;
+    height: 20px;
+}
+
+#menu li { 
+    display: inline-block;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#menu li a {
+	display: block;
+  	background: black;
+ 	color: white ;
+  	line-height: 1em ;
+ 	text-align: center ;
+ 	text-decoration: none ;
+ 	padding: 16px 0 ;
+}
+
+#menu ul {
+	position: absolute;
+    left: -999em;
+}
+
+#menu li:hover ul {
+    left: 500px;
+    height: 0px;
+    width: 1055px;
+}
+
+.menugz {
+	background-color: red;
+	height: 50px;
+	margin-top: 40px;
+	margin-left: 1000px;
+}
+
+table{
+	margin: auto;
+}
+
+table.coller{
+	border-collapse: collapse;
+}
+
+td, th{
+	border: 1px solid #000;
+}
+
+th.boutique{
+	width: 300px;
+	font-size: 26px;
+}
+
+td.boutique{
+	width: 300px;
+}
+
+th.gest_bout{
+	width: 150px;
+}
+
+td.gest_bout{
+	width: 150px;
+}
+
+th.produit{
+	font-size: 22px;
+}
+
+th.tableau{
+	font-size: 22px;
+	border: none;
+}
+
+td.tableau{
+	background: #8ea2c6;
+	width: 400px;
+	border: none;
+}
+
+table.tab1{
+	border-collapse: collapse;
+	float: left;
+    width: 280px;
+    border: 1px solid black;
+	margin-left: 350px;
+}
+
+table.tab2{
+	border-collapse: collapse;
+	float: left;
+    width: 250px;
+    border: 1px solid black;
+    margin-left: 1px;
+}
+
+table.tab3{
+	border-collapse: collapse;
+	float: left;
+    width: 250px;
+    border: 1px solid black;
+    margin-left: 1px;
+}
+
+table.tab4{
+	border-collapse: collapse;
+	float: left;
+    width: 250px;
+    border: 1px solid black;
+    margin-left: 1px;
+}
+
+table.tab5{
+	border-collapse: collapse;
+	float: left;
+    width: 250px;
+    border: 1px solid black;
+    margin-left: 1px;
+}
+
+h2{
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	width: 260px;
+}
+
+.milieu{
+	text-align: center;
+}
+
+.texte_gras{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.texte_gras_italique{
+	font-style: italic;
+	font-weight: bold;
+}
+
+img.image_barre_recherche{
+	transition: height 2s ease;
+}
+
+img.image_barre_recherche:hover{
+	height: 300px;
+}
+
+img.image_zoom{
+	transition: height 2s ease;
+}
+
+img.image_zoom:hover{
+	height: 400px;
+}
+
+img.image_produit{
+	transition: height 2s ease;
+}
+
+img.image_produit:hover{
+	height: 300px;
+}
+
+a.lien_p {
+	color: black;
+	text-decoration: none;
+}
+
+a.lien_p:hover {
+	color: red;
+}
+
+span.representation_produit{
+	font-size: 18px;
+}
+
+.droite{
+	min-width: 100px;
+	float: right;
+}
+
+fieldset{
+    margin: auto;
+    display: block;
+}
+
+span.espace{
+	margin-left: 46px;
+}
